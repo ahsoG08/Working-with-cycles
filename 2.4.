@@ -1,0 +1,13 @@
+start
+new chel number
+new i number
+set i 0
+set chel 13
+new dro number
+set dro 4
+   loop country (chel>dro)
+     set chel chel-dro
+     set i i + 1
+   end country
+log string i >> "," >> chel >> dro
+finish
