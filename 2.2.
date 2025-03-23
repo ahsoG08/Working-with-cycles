@@ -1,0 +1,49 @@
+start
+new a number
+new b number
+set a 1
+set b 0
+loop one (10 > a)
+log number a 
+set a a + 1
+end one
+loop two (18 > b)
+log number b + 2
+set b b + 2
+end two
+set b 0
+loop three (27 > b)
+log number b + 3
+set b b + 3
+end three
+set b 0
+loop four (36 > b)
+log number b + 4
+set b b + 4
+end four
+set b 0
+loop five (45 > b)
+log number b + 5
+set b b + 5
+end five
+set b 0
+loop six (54 > b)
+log number b + 6
+set b b + 6
+end six
+set b 0
+loop seven (63 > b)
+log number b + 7
+set b b + 7
+end seven
+set b 0
+loop eight (72 > b)
+log number b + 8
+set b b + 8
+end eight
+set b 0
+loop nine (81 > b)
+log number b + 9
+set b b + 9
+end nine
+finish
